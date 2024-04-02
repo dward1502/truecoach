@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import styles from "./about.module.css";
 import Hero from "@/components/Hero/hero";
@@ -13,7 +14,7 @@ const page = () => {
       <h1 className={styles.title}>About</h1>
       <section className={styles.about}>
         <div className={styles.about_img}>
-          <Image src={Tony} alt="Image of Tony Dress" layout="fill" objectFit="cover" quality={100} />
+          <Image src={Tony} alt="Image of Tony Dress" fill style={{objectFit:"cover"}} quality={100} />
         </div>
         <div className={styles.about_text}>
           <h3>About Tony</h3>
@@ -34,7 +35,7 @@ const page = () => {
       </section>
       <section className={styles.about}>
         <div className={styles.about_img}>
-          <Image src={Wendy} alt="Image of Tony Dress" layout="fill" objectFit="cover" quality={100} />
+          <Image src={Wendy} alt="Image of Tony Dress" fill style={{objectFit:"cover"}} quality={100} />
         </div>
         <div className={styles.about_text}>
           <h3>About Dr. Wendy Hill PH. D</h3>

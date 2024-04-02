@@ -1,8 +1,13 @@
+"use client"
 import React from 'react'
+import styles from "./contact.module.css"
+import Hero from '@/components/Hero/hero'
 
 const contact = () => {
   return (
-    <div>contact</div>
+    <div className={styles.main}>
+      <Hero/>
+    </div>
   )
 }
 

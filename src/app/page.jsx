@@ -1,12 +1,8 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-import Nav from "../components/Nav/Nav";
 import Hero from "@/components/Hero/hero";
 
 export default function Home() {
-  return (
-    <>
-      <Nav />
+  return (          
       <main className={styles.main}>
         <Hero />
         <div className={styles.center}>
@@ -67,7 +63,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </main>
-    </>
+      </main>    
   );
 }

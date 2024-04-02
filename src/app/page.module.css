@@ -1,0 +1,107 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */  
+}
+
+.description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+.description a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.description p {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+}
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid with minimum width of 300px */
+  grid-gap: 20px; /* Adjust gap between cards as needed */
+}
+
+.card {
+  background-color: #f0f0f0; /* Card background color */
+  padding: 20px; /* Card padding */
+  border-radius: 10px; /* Card border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card box shadow */
+}
+
+.card h3 {
+  font-size: 1.2rem; /* Heading font size */
+  margin: 0; /* Remove default margin */
+}
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, auto));
+  max-width: 100%;
+  width: var(--max-width);
+}
+
+.card {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:12rem;
+  padding: 1rem;
+} */
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  padding: 4rem 0;
+}
+.center_2 {
+  margin-top: 2rem;
+}
+
+.text_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  height:35rem;
+  background-color: blue;
+  padding:3rem;
+  margin-top: 4rem;
+}
+.text_section p {
+  margin:1rem;
+  color:white;
+  font-size: 1.2rem;
+}
+
+

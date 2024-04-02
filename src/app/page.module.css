@@ -5,7 +5,7 @@
   align-items: center;
   min-height: 100vh;
   overflow-y: scroll;
-  scrollbar-width: none; /* Firefox */  
+  scrollbar-width: none; /* Firefox */
 }
 
 .description {
@@ -81,7 +81,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   padding: 4rem 0;
 }
 .center_2 {
@@ -92,16 +92,104 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:100%;
-  height:35rem;
-  background-color: blue;
-  padding:3rem;
+  width: 100%;
+  padding: 3rem;
   margin-top: 4rem;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1041%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(25%2c 126%2c 127%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c561.841C114.696%2c571.601%2c238.397%2c583.847%2c336.096%2c522.976C434.177%2c461.867%2c482.07%2c346.671%2c520.351%2c237.636C556.132%2c135.721%2c553.597%2c29.137%2c547.333%2c-78.695C540.518%2c-196.003%2c566.214%2c-335.664%2c482.27%2c-417.889C397.878%2c-500.553%2c257.524%2c-463.659%2c140.203%2c-477.487C43.922%2c-488.835%2c-52.174%2c-521.663%2c-144.391%2c-491.749C-235.444%2c-462.213%2c-298.275%2c-385.078%2c-362.76%2c-314.333C-428.832%2c-241.847%2c-494.652%2c-168.934%2c-523.958%2c-75.334C-556.63%2c29.018%2c-579.544%2c144.554%2c-538.12%2c245.751C-496.19%2c348.184%2c-396.679%2c412.685%2c-301.243%2c468.744C-208.747%2c523.076%2c-106.887%2c552.746%2c0%2c561.841' fill='%23125a5a'%3e%3c/path%3e%3cpath d='M1440 890.662C1507.059 894.163 1574.533 892.281 1635.6109999999999 864.377 1702.708 833.722 1774.021 793.5740000000001 1801.952 725.298 1829.688 657.498 1781.266 584.341 1780.134 511.096 1778.7730000000001 423.055 1841.2060000000001 327.433 1794.646 252.69799999999998 1748.753 179.03500000000003 1644.878 166.096 1558.715 155.69400000000002 1481.347 146.35399999999998 1408.42 175.85399999999998 1333.419 197.019 1257.551 218.42899999999997 1176.298 228.123 1117.196 280.288 1053.926 336.132 1012.8430000000001 413.558 994.707 495.976 975.712 582.297 959.554 684.519 1012.703 755.14 1065.9470000000001 825.887 1172.69 817.844 1257.091 844.613 1318.26 864.014 1375.915 887.316 1440 890.662' fill='%2320a3a4'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1041'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 .text_section p {
-  margin:1rem;
-  color:white;
+  margin: 1.4rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.bullet_list {
+  list-style-type: disc; /* Use disc bullets */
+  padding-left: 20px; /* Adjust padding as needed */
+  margin-top: 2rem;
   font-size: 1.2rem;
 }
 
+.bullet_list li {
+  margin-bottom: 10px; /* Adjust margin between list items */
+  color: white;
+}
+.workshops {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0rem;
+}
+.workshops h3 {
+  font-size: 1.2rem;
+}
+.flex {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.workshops_card {
+  width: 25rem;
+  /* height: 25rem; */
+  background: rgb(3,63,64);
+background: linear-gradient(180deg, rgba(3,63,64,1) 0%, rgba(24,150,152,1) 45%, rgba(25,126,127,1) 100%);
+  margin: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 2.5rem;
+}
+.workshops_card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.workshops_card h5 {
+  font-size: 1.1rem;
+  margin-bottom:2rem;
+  text-align: center;
+  width:14rem;
+}
+.workshops_card h6 {
+  margin-bottom: 1rem;
+  font-size: .8rem;
+}
+.workshops_card p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.btn, .btn2 {
+  margin: 1.8rem 0rem;
+  width: 275px;
+  height: 75px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 75px;
+  color: rgba(255, 255, 255, 0.9);
+  /* border-radius: 50px; */
+  background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+  background-size: 600%;
+  animation: anime 16s linear infinite;
+}
+
+.btn2 {
+  position: absolute;
+  /* margin-top: -70px; */
+  z-index: -1;
+  filter: blur(30px);
+  opacity: 0.8;
+}
+
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 

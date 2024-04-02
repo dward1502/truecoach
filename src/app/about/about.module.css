@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .title {
+    margin-top: 2rem;
+  }
+  .about {
+    margin-top: 2rem;
+    display: flex;
+    padding: 4rem;    
+  }
+  .about_img {
+    position: relative;   
+    width:25rem;
+    height: 20rem;
+  }
+  .about_text {
+    flex: 1;
+    padding: 3rem;
+  }
+  .about_text p {
+    margin-top: 1rem;
+    text-indent: 1.2rem;
+  }

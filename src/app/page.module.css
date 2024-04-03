@@ -171,6 +171,7 @@ background: linear-gradient(180deg, rgba(3,63,64,1) 0%, rgba(24,150,152,1) 45%, 
   background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
   background-size: 600%;
   animation: anime 16s linear infinite;
+  cursor: pointer;
 }
 
 .btn2 {

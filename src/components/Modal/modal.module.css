@@ -1,0 +1,29 @@
+.container {
+    width: 35rem;
+    height:25rem;
+    padding:3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container p {
+    margin-top: 1rem;
+}
+
+.emailInput {
+    margin-top: 2rem;
+    padding:.8rem;
+    width: 22rem;
+}
+.error {
+    color:red;
+}
+
+.sendBtn {
+    margin-top: 2rem;
+    width: 10rem;
+    height: 2rem;
+    font-family: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}

@@ -1,9 +1,10 @@
 .navbar {
-    background-color: #333;
+    background-color:rgba(3,63,64,1);
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: .2rem;
   }
   
   .navbar_brand {

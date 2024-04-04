@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Hero from "@/components/Hero/hero";
 import { useState } from "react";
 import EmailModal from "@/components/Modal/modal";
+
 export default function Home() {
   const [open, setOpen] = useState(false);
   const [workshop, setWorkshop] = useState("");

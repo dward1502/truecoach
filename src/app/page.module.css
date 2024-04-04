@@ -132,7 +132,7 @@
   width: 25rem;
   /* height: 25rem; */
   background: rgb(3,63,64);
-background: linear-gradient(180deg, rgba(3,63,64,1) 0%, rgba(24,150,152,1) 45%, rgba(25,126,127,1) 100%);
+  background: linear-gradient(180deg, rgba(3,63,64,1) 0%, rgba(24,150,152,1) 45%, rgba(25,126,127,1) 100%);
   margin: 1.2rem;
   display: flex;
   flex-direction: column;

@@ -194,3 +194,32 @@ background: linear-gradient(180deg, rgba(3,63,64,1) 0%, rgba(24,150,152,1) 45%, 
   }
 }
 
+.header {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.subheader {
+  margin-top: 1rem;
+  width:50rem;
+  font-size: 1.5rem;
+}
+.cta_button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin:2rem 0;
+}
+
+.cta_button:hover {
+  background-color: #dddddd;
+}
+.textDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
